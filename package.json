@@ -12,5 +12,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@8.15.3+sha256.fc4a49bd609550a41e14d20efbce802a4b892aa4cac877322de2f0924f122991"
+  "packageManager": "pnpm@8.15.3+sha256.fc4a49bd609550a41e14d20efbce802a4b892aa4cac877322de2f0924f122991",
+  "pnpm": {
+    "overrides": {
+      "form-data@4.0.0": ">=4.0.4",
+      "braces": ">=3.0.3",
+      "ws@<8.17.1": ">=8.17.1",
+      "rollup@<4.22.4": ">=4.22.4",
+      "cross-spawn@<7.0.5": ">=7.0.5",
+      "tar@<7.5.3": ">=7.5.3",
+      "vite@5.1.4": ">=5.1.7",
+      "micromatch@<4.0.8": ">=4.0.8",
+      "@babel/helpers@<7.26.10": ">=7.26.10",
+      "nanoid@<3.3.8": ">=3.3.8",
+      "js-yaml@<3.14.2": ">=3.14.2",
+      "brace-expansion@<2.0.2": ">=2.0.2"
+    }
+  }
 }
